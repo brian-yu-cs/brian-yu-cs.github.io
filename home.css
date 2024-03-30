@@ -1,0 +1,103 @@
+﻿body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #3d3c3c;
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #ffffff;
+    color: #555555;
+  }
+  .bg-3 { 
+    background-color: #474e5d;
+    color: #ffffff;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f;
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2d2d30;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: rgb(0, 132, 255) !important;
+  }
+
+  .me-img {
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .me-img img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: -50px;
+    max-height: 700px;
+  }
+
+  .my-name {
+      font-size: 36px;
+  }
+
+  .self-description {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 2%;
+  }
+
+  .adjust-row {
+      padding-top: -50px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  li {
+    font-size: 14px;
+  }
+  
